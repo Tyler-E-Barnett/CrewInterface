@@ -1,0 +1,41 @@
+{
+  "name": "logisticsmapping",
+  "engines": {
+    "node": "21.7.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.2.0",
+    "@azure/msal-browser": "^3.11.1",
+    "@azure/msal-react": "^2.0.14",
+    "@azure/storage-blob": "^12.17.0",
+    "@mui/x-date-pickers": "^7.4.0",
+    "axios": "^1.6.7",
+    "base-64": "^1.0.0",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.3",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "node": "^21.7.1",
+    "nodemon": "^3.1.0",
+    "react-currency-input-field": "^3.8.0",
+    "react-date-range": "^2.0.1",
+    "react-select": "^5.8.0",
+    "uuid": "^9.0.1"
+  },
+  "description": ""
+}

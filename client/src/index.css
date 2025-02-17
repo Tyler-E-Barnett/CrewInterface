@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen bg-pageColor;
+  /* zoom: 0.7; */
+  /* transform-origin: top left;
+  transform: scale(0.6);
+  width: 125%;
+  height: 125%;
+  overflow: hidden; */
+}
